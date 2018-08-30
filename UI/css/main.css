@@ -20,7 +20,7 @@
             text-align: center;
         }
         .container{
-            background: #EB0000;
+            background: #A43550;
             height: 60px;
             width: 100%;
         }
@@ -176,6 +176,9 @@
     .cover-image img{
         width: 100%;
     }
+    .small-width{
+        width: 86%!important;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px){
@@ -205,6 +208,9 @@
     .cover-image img{
         width: 100%;
     }
+    .small-width{
+        width:72%!important;
+    }
 }
 
 @media screen and (min-width: 801px) and (max-width: 950px){
@@ -226,6 +232,9 @@
     }
     .cover-image img{
         width: 100%;
+    }
+    .small-width{
+        width:50%!important;
     }
 
 }
@@ -253,4 +262,67 @@
 body{
     background: white;
 }
+.input-field{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff!important;
+    background-c: #fff!important;
+    background-clip: padding-box;
+    border: 1px solid #ea0000;
+    border-radius: .25rem;
+}
 
+.input-field:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #A43550;
+    outline: 0;
+}
+.padded{
+    padding:20px;
+}
+
+.small-width{
+    width: 30%;
+    margin-top:20px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-center{
+    margin-top:10vh;
+}
+.input-container:not(:first-child){
+    margin-top: 13px;
+    width: 100%;
+}
+.btn-wide{
+    width:107%;
+}
+
+.theme{
+    background: #A43550;
+    border-color: #A43550;
+}
+
+.nav .nav-item:nth-child(3) {
+    color: orange;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.theme-text, .theme-text:focus{
+    color:#A43550;
+}
+a{
+    text-decoration: none;
+}

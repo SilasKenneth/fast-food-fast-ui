@@ -1,3 +1,7 @@
-.nav .nav-item:nth-child(4) {
+.nav .nav-item:nth-child(4) a{
     color: orange;
+}
+
+footer{
+	margin-top: 54vh;
 }

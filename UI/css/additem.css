@@ -8,3 +8,7 @@ body{
 .nav-item.active a{
 	color:orange!important;
 }
+
+footer{
+	margin-top: 200px;
+}

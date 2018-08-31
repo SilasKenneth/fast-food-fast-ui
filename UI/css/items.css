@@ -63,3 +63,29 @@ body{
 	margin-top: 20px;
 	margin-bottom: 0!important;
 }
+
+.item-links .btn, .item-links .btn .blue, .item-links .btn .red, .green{
+	border-radius: 0!important;
+	box-shadow: unset!important;
+	transition: background border-color 1s ease;
+}
+
+.item-links .btn:hover{
+	box-shadow: unset!important;
+}
+.red{
+	background: #A43550!important;
+}
+.red:hover{
+  background: red!important;
+  border-color: red!important;
+}
+.blue:hover{
+	background: blue;
+	border-color: blue;
+}
+
+.green:hover{
+	background: green;
+	border-color: green;
+}

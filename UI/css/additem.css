@@ -1,6 +1,10 @@
 body{
 	background: whitesmoke;
 }
-.nav .nav-items a{
-	color: white;
+.nav .nav-item a{
+	color: white!important;
+}
+
+.nav-item.active a{
+	color:orange!important;
 }

@@ -89,3 +89,8 @@ body{
 	background: green;
 	border-color: green;
 }
+
+.float-right{
+	margin-right: 0!important;
+	margin-left:70%;
+}

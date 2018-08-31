@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Add new item</title>
+		<title>Edit item</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/additem.css">
+		<link rel="stylesheet" type="text/css" href="css/edititem.css">
 	</head>
 	<body>
 		<header class="theme">
@@ -21,23 +21,23 @@
 		</header>
 		<main>
 			<div class="center small-width padded">
-				<h3 class="text-center">Add food to menu</h3>
+				<h3 class="text-center">Edit Sushi</h3>
 				<p class="input-container">
-					<input type="text" name="item_name" class="input-field theme" placeholder="Product name eg Sushi">
+					<input type="text" name="item_name" class="input-field theme" placeholder="Product name eg Sushi" value="Sushi">
 				</p>
 				<p class="input-container">
 					<label><strong>Food description</strong></label>
 					<br><br>
-					<textarea class="input-field theme"></textarea>
+					<textarea class="input-field theme" rows="7">Sushi rolls are a crowd favourite! Especially when they’re filled with good quality seafood and fresh vegetables. Our recipe feeds roughly 2 people, and you’ll need a sushi mat. Adjust ingredient portions accordingly – and feel free to personalise your sushi rolls with additional ingredients!</textarea>
 				</p>
 				<p class="input-container">
-					<input type="url" name="image_link" placeholder="Product picture URL" class="input-field theme">
+					<input type="url" name="image_link" placeholder="Product picture URL" class="input-field theme" value="https://www.getfish.com.au/wp-content/uploads/2017/09/fresh-salmon-sushi-rolls.jpg">
 				</p>
 				<p class="input-container">
-					<input type="number" name="price" placeholder="Price in Ksh" class="input-field theme" min="1" max="10000">
+					<input type="number" name="price" placeholder="Price in Ksh" class="input-field theme" min="1" max="10000" value="120">
 				</p>
 				<p class="input-container">
-					<button class="btn btn-wide theme">Create menu item</button>
+					<button class="btn btn-wide theme">Save changes</button>
 				</p>
 			</div>
 		</main>

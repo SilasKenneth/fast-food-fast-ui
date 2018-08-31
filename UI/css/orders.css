@@ -57,3 +57,17 @@ footer{
 .nav .nav-item:nth-child(5) a{
 	color:orange!important;
 }
+
+.two-pane{
+	display: flex;
+	background: white;
+}
+
+.table tr , .table tr td, .table th{
+	border:1px solid gray;
+	border-collapse: collapse!important;
+	padding:10px 5px;
+}
+table{
+	border-collapse: collapse;
+}

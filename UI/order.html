@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fast-Food-Fast Items</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/orders.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0, minimum-scale=0.86">
+	<style type="text/css">
+		body{
+			background: whitesmoke;
+		}
+		.two-pane{
+			margin-top: 20px;
+			border-radius: unset;
+			padding:20px;
+			width: 70%;
+		}
+		.order-items{
+			/*background: orange;*/
+			margin-left: 12em;
+			width: 56%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="container">
+			<ul id="main-nav" class="nav">
+				<li class="nav-item logo"><a href="home.html"><h4>Fast Food Fast</h4></a></li>
+				<li class="nav-item"><a href="#">Log out</a></li>
+				<li class="nav-item"><a href="profile.html">Account</a></li>
+				<li class="nav-item current"><a href="items.html">Menu</a></li>
+				<li class="nav-item"><a href="userorders.html">Orders</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="two-pane center medium-width">
+			<div class="order-form small-width">
+				<h3>Provide details on how to get to you</h3>
+				<br>
+				<p class="input-container">
+					<input type="text" name="address" placeholder="Current address" class="input-field theme theme-text" />
+				</p>
+				<p class="input-container">
+					<input type="text" name="address1" placeholder="House number"  class="input-field theme theme-text" />
+				</p>
+				<p class="input-container">
+					<button class="btn theme btn-wide">Complete</button>
+				</p>
+			</div>
+			<div class="order-items">
+				<table class="table">
+					<thead>
+						<th>Item name</th>
+						<th>Quantity</th>
+						<th>Unit price</th>
+						<th>Total cost</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Fried chicken n fish</td>
+							<td>2 wings</td>
+							<td>Ksh. 200</td>
+							<td>Ksh. 400</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</main>
+	<footer class="theme">
+		<h3 class="text-center">Contacts</h3>
+		<p class="text-center"><strong>Phone</strong>: +254791350402</p>
+		<p class="text-center"><strong>Email</strong>: fastfood@fastfoodfast.com</p>
+		<br>
+		<p class="text-center">&copy; Fast Food Fast Inc.</p>
+	</footer>
+</body>
+</html>

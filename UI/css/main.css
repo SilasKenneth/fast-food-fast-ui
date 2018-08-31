@@ -311,9 +311,6 @@ body{
     border-color: #A43550;
 }
 
-.nav .nav-item:nth-child(3) {
-    color: orange;
-}
 .text-right{
     text-align: right;
 }

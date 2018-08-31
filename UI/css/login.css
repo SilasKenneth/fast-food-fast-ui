@@ -5,3 +5,15 @@
 footer{
 	margin-top: 54vh;
 }
+
+.nav .nav-item a{
+  color: white!important;
+}
+
+.nav .nav-item:hover a{
+  color: orange!important;
+}
+
+.nav .nav-item:nth-child(3) a{
+  color: white;!important;
+}

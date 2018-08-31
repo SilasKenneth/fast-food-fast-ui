@@ -1,0 +1,7 @@
+.nav .nav-item:hover a{
+   color: orange!important;
+}
+
+.nav .nav-item a{
+  color:white!important;
+}

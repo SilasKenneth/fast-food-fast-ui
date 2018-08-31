@@ -1,0 +1,29 @@
+.nav .nav-item a{
+	color: white!important;
+}
+.nav .nav-item:hover a{
+	color:orange!important;
+}
+
+@media (max-width: 500px){
+	.logo{
+		display: none;
+	}
+}
+.text-gray{
+	color: gray;
+}
+
+.history-container{
+	background: orange;
+	display: flex;
+	flex-direction: column;
+}
+
+.text-right, .text-gray{
+	text-align: right!important;
+}
+
+.center{
+	margin:0px auto 0px auto;
+}

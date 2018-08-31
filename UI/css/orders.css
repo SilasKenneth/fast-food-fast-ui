@@ -1,0 +1,59 @@
+.nav .nav-item a{
+	color: white!important;
+}
+.nav .nav-item:hover a{
+	color:orange!important;
+}
+
+@media (max-width: 500px){
+	.logo{
+		display: none;
+	}
+}
+.text-gray{
+	color: gray;
+}
+
+.history-container{
+	background: white;
+	display: flex;
+	flex-direction: column!important;
+	min-width: 500px;
+	margin-top: 2.3em;
+	width:60%;
+}
+
+.text-right, .text-gray{
+	text-align: right!important;
+}
+
+.center{
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.order-row{
+	background: white;
+	display: flex;
+}
+body{
+	background: lightpurple;
+}
+
+.order-row p:not(:first-child){
+	margin-left:8em;
+}
+footer{
+	margin-top:400px;
+}
+
+.text-red{
+	color: red;
+}
+.text-green{
+	color:green;
+}
+
+.nav .nav-item:nth-child(5) a{
+	color:orange!important;
+}

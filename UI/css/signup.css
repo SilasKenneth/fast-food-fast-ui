@@ -8,3 +8,14 @@ body{
 footer{
 	margin-top: 160px;
 }
+
+.nav .nav-item a{
+   color: white!important;
+   transition: color .2s ease;
+}
+.nav .nav-item:nth-child(4) a{
+  color: orange!important;
+}
+.nav .nav-item:hover a{
+  color: orange!important;
+}

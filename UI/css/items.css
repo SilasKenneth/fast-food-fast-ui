@@ -1,0 +1,96 @@
+.nav .nav-item a{
+	color: white;
+}
+.current a{
+	color: orange!important;
+}
+
+@media screen and (max-width: 485px){
+	.logo{
+		display: none;
+	}
+}
+
+body{
+	background: whitesmoke;
+}
+.item{
+	display: flex;
+	flex-direction: row;
+	background: white;
+	height: 110px!important;
+	padding:0!important;
+	width: auto;
+	overflow: hidden;
+	box-shadow: 2px 2px 2px lightgray;
+	min-width: 400px;
+	margin-top: 10px;
+	margin-bottom: 0!important;
+
+}
+.item:not(:last-child){
+	margin-right: 20px;
+}
+.item .item-body{
+	margin: 10px;
+}
+
+.item .item-image{
+	height: 100%;
+	width: 150px;
+}
+
+.item-links{
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+.medium-width{
+	flex-wrap: wrap;
+}
+
+.full-width{
+	width: 100%;
+	display: flex!important;
+	flex-wrap: wrap!important;
+	flex-direction: row!important;
+}
+
+.small-width{
+	margin-top: 20px;
+	margin-bottom: 0!important;
+}
+
+.item-links .btn, .item-links .btn .blue, .item-links .btn .red, .green{
+	border-radius: 0!important;
+	box-shadow: unset!important;
+	transition: background border-color 1s ease;
+}
+
+.item-links .btn:hover{
+	box-shadow: unset!important;
+}
+.red{
+	background: #A43550!important;
+}
+.red:hover{
+  background: red!important;
+  border-color: red!important;
+}
+.blue:hover{
+	background: blue;
+	border-color: blue;
+}
+
+.green:hover{
+	background: green;
+	border-color: green;
+}
+
+.float-right{
+	margin-right: 0!important;
+	margin-left:70%;
+}

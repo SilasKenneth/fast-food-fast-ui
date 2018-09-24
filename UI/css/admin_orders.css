@@ -64,6 +64,6 @@ li a{
 body{
 	background: whitesmoke;
 }
-* {
-	padding:5px;
+table *{
+	padding:10px;
 }

@@ -57,3 +57,13 @@ footer{
 .nav .nav-item:nth-child(5) a{
 	color:orange!important;
 }
+
+li a{
+	color: white;
+}
+body{
+	background: whitesmoke;
+}
+table *{
+	padding:10px;
+}
